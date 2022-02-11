@@ -59,9 +59,179 @@ header .container ul li a.blue, header .container ul li a:hover {
   color: #0282f9;
   border-bottom: 0.2em solid #0282f9;
 }
+header .container ul li a i {
+  color: #0282f9;
+  vertical-align: text-top;
+  padding-left: 0.5em;
+}
 
 .background {
-  background-image: url(../img/jumbotron.jpg);
+  background-image: url(../../img/jumbotron.jpg);
   background-size: cover;
   height: 400px;
+}
+
+main {
+  background-color: #1c1c1c;
+}
+main .container {
+  padding: 3em 0;
+  position: relative;
+}
+main .container .title {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  padding: 1em;
+  background-color: #0282f9;
+  position: absolute;
+  top: -25px;
+}
+main .container .thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4em;
+}
+main .container .thumbs .thumb {
+  width: 200px;
+}
+main .container .thumbs .thumb .img-container {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+main .container .thumbs .thumb .img-container img {
+  width: 100%;
+}
+main .container .thumbs .thumb .subtitle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+main .container .bottom-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+main .container .bottom-container .load-more {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  padding: 1em 3em;
+  background-color: #0282f9;
+  display: inline-block;
+}
+
+.footer-top {
+  background-color: #0282f9;
+}
+.footer-top .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
+}
+.footer-top .container .items {
+  padding: 3em 0;
+  display: flex;
+  align-items: center;
+}
+.footer-top .container .items img {
+  height: 60px;
+}
+.footer-top .container .items img.little {
+  height: 40px;
+}
+.footer-top .container .items span {
+  text-transform: uppercase;
+  padding-left: 1em;
+  color: white;
+  font-size: 0.8em;
+}
+
+.footer-center {
+  background-image: url(../../img/footer-bg.jpg);
+  background-size: contain;
+}
+.footer-center .background-logo {
+  padding: 2em 0 2em 0;
+  background-image: url(../..img/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 85%;
+  background-position-y: 50%;
+}
+.footer-center .background-logo .copyright {
+  padding-top: 1em;
+}
+.footer-center .background-logo .copyright span {
+  color: #959595;
+}
+.footer-center .background-logo .copyright span a {
+  text-decoration: none;
+  color: #0282f9;
+}
+.footer-center .background-logo .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.footer-center .background-logo .first-col,
+.footer-center .background-logo .second-col,
+.footer-center .background-logo .third-col {
+  float: left;
+  width: 15%;
+}
+.footer-center .background-logo .first-col h3,
+.footer-center .background-logo .second-col h3,
+.footer-center .background-logo .third-col h3 {
+  text-transform: uppercase;
+  padding: 0.8em 0;
+  color: white;
+}
+.footer-center .background-logo .first-col ul,
+.footer-center .background-logo .second-col ul,
+.footer-center .background-logo .third-col ul {
+  list-style: none;
+}
+.footer-center .background-logo .first-col ul li,
+.footer-center .background-logo .second-col ul li,
+.footer-center .background-logo .third-col ul li {
+  padding-bottom: 0.5em;
+  font-size: 0.9em;
+}
+.footer-center .background-logo .first-col ul li a,
+.footer-center .background-logo .second-col ul li a,
+.footer-center .background-logo .third-col ul li a {
+  text-decoration: none;
+  color: #959595;
+}
+
+.footer-bottom {
+  background-color: #303030;
+}
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 2em 0;
+}
+.footer-bottom .container .sign-up {
+  border: 2px solid #0282f9;
+  padding: 1em;
+}
+.footer-bottom .container .sign-up a {
+  text-decoration: none;
+  color: white;
+}
+.footer-bottom .container .social {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom .container .social h3 {
+  padding-right: 2em;
+  color: #0282f9;
+}
+.footer-bottom .container .social ul li {
+  display: inline-block;
+  padding: 0 0.5em;
 }

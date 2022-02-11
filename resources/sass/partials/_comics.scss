@@ -1,0 +1,51 @@
+main {
+    background-color: $mainBackground;
+    .container {
+        padding: 3em 0;
+        position: relative;
+        .title {
+            text-transform: uppercase;
+            color: white;
+            font-weight: 600;
+            padding: 1em;
+            background-color: $lightblue;
+            position: absolute;
+            top: -25px;
+        }
+        .thumbs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.4em;
+            .thumb {
+                width: 200px;
+                .img-container {
+                    height: 200px;
+                    width: 200px;
+                    overflow: hidden;
+                    margin-bottom: 1em;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .subtitle {
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 0.8em;
+                }
+            }
+        }
+        .bottom-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 2em;
+            .load-more {
+                text-transform: uppercase;
+                color: white;
+                font-weight: 600;
+                padding: 1em 3em;
+                background-color: $lightblue;
+                display: inline-block;
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+.footer-top {
+    background-color: $lightblue;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2em;
+        .items {
+            padding: 3em 0;
+            display: flex;
+            align-items: center;
+            img {
+                height: 60px;
+                &.little {
+                    height: 40px;
+                }
+            }
+            span {
+                text-transform: uppercase;
+                padding-left: 1em;
+                color: white;
+                font-size: 0.8em;
+            }
+        }
+    }
+}
+
+.footer-center {
+    background-image: url(../../img/footer-bg.jpg);
+    background-size: contain;
+    .background-logo {
+        padding: 2em 0 2em 0;
+        background-image: url(../..img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position-x: 85%;
+        background-position-y: 50%;
+        .copyright {
+            padding-top: 1em;
+            span {
+                color: $footerGreyText;
+                a {
+                    text-decoration: none;
+                    color: $lightblue;
+                }
+            }
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .first-col,
+        .second-col,
+        .third-col {
+            float: left;
+            width: 15%;
+            h3 {
+                text-transform: uppercase;
+                padding: 0.8em 0;
+                color: white;
+            }
+            ul {
+                list-style: none;
+                li {
+                    padding-bottom: 0.5em;
+                    font-size: 0.9em;
+                    a {
+                        text-decoration: none;
+                        color: $footerGreyText;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    background-color: $footerBottomBackground;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        padding: 2em 0;
+        .sign-up {
+            border: 2px solid $lightblue;
+            padding: 1em;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+        .social {
+            display: flex;
+            align-items: center;
+            h3 {
+                padding-right: 2em;
+                color: $lightblue;
+            }
+            ul li {
+                display: inline-block;
+                padding: 0 0.5em;
+            }
+        }
+    }
+}

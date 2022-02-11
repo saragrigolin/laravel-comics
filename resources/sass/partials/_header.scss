@@ -38,6 +38,11 @@ header {
                         color: $lightblue;
                         border-bottom: 0.2em solid $lightblue;
                     }
+                    i {
+                        color: $lightblue;
+                        vertical-align: text-top;
+                        padding-left: 0.5em;
+                    }
                 }
             }
         }
