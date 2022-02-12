@@ -29,44 +29,44 @@
                 <div class="first-col">
                     <h3>dc comics</h3>
                     <ul>
-                        <li><a>Characters</a></li>
-                        <li><a>Comics</a></li>
-                        <li><a>Movies</a></li>
-                        <li><a>TV</a></li>
-                        <li><a>Games</a></li>
-                        <li><a>Videos</a></li>
-                        <li><a>News</a></li>
+                        <li><a href="{{route('characters')}}">Characters</a></li>
+                        <li><a href="{{route('characters')}}">Comics</a></li>
+                        <li><a href="{{route('characters')}}">Movies</a></li>
+                        <li><a href="{{route('characters')}}">TV</a></li>
+                        <li><a href="{{route('characters')}}">Games</a></li>
+                        <li><a href="{{route('characters')}}">Videos</a></li>
+                        <li><a href="{{route('characters')}}">News</a></li>
                     </ul>
                     <h3>shop</h3>
                     <ul>
-                        <li><a>Shop DC</a></li>
-                        <li><a>Shop DC Collectibles</a></li>
+                        <li><a href="{{route('characters')}}">Shop DC</a></li>
+                        <li><a href="{{route('characters')}}">Shop DC Collectibles</a></li>
                     </ul>
                 </div>
                 <div class="second-col">
                     <h3>dc</h3>
                     <ul>
-                        <li><a>Terms Of Use</a></li>
-                        <li><a>Privacy policy (New)</a></li>
-                        <li><a>Ad Choiches</a></li>
-                        <li><a>Advertising</a></li>
-                        <li><a>Jobs</a></li>
-                        <li><a>Subscriptions</a></li>
-                        <li><a>Talent Workshops</a></li>
-                        <li><a>CPSC Certificates</a></li>
-                        <li><a>Ratings</a></li>
-                        <li><a>Shop Help</a></li>
-                        <li><a>Contact Us</a></li>
+                        <li><a href="{{route('characters')}}">Terms Of Use</a></li>
+                        <li><a href="{{route('characters')}}">Privacy policy (New)</a></li>
+                        <li><a href="{{route('characters')}}">Ad Choiches</a></li>
+                        <li><a href="{{route('characters')}}">Advertising</a></li>
+                        <li><a href="{{route('characters')}}">Jobs</a></li>
+                        <li><a href="{{route('characters')}}">Subscriptions</a></li>
+                        <li><a href="{{route('characters')}}">Talent Workshops</a></li>
+                        <li><a href="{{route('characters')}}">CPSC Certificates</a></li>
+                        <li><a href="{{route('characters')}}">Ratings</a></li>
+                        <li><a href="{{route('characters')}}">Shop Help</a></li>
+                        <li><a href="{{route('characters')}}">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="third-col">
                     <h3>sites</h3>
                     <ul>
-                        <li><a>DC</a></li>
-                        <li><a>MAD Magazine</a></li>
-                        <li><a>DC Kids</a></li>
-                        <li><a>DC Universe</a></li>
-                        <li><a>DC Power Visa</a></li>
+                        <li><a href="{{route('characters')}}">DC</a></li>
+                        <li><a href="{{route('characters')}}">MAD Magazine</a></li>
+                        <li><a href="{{route('characters')}}">DC Kids</a></li>
+                        <li><a href="{{route('characters')}}">DC Universe</a></li>
+                        <li><a href="{{route('characters')}}">DC Power Visa</a></li>
                     </ul>
                 </div>
             </div>
