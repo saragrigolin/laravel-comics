@@ -118,8 +118,10 @@ main.comic {
         width: 100%;
         background-color: #f6f6f6;
 
-        .info {
+        .container-info {
             display: flex;
+            padding-top: 3em;
+            padding-bottom: 5em;
 
             .left-info {
                 margin-right: 2em;
@@ -165,6 +167,79 @@ main.comic {
                         }
                     }
                 }
+            }
+        }
+
+        .digitals {
+            text-transform: uppercase;
+            width: 100%;
+            border-top: 1px solid #e3e3e3;
+
+            .digitals-container {
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+
+                .digital-comics,
+                .shop-dc,
+                .coics-shop-locator,
+                .subscription {
+                    border-left: 1px solid #e3e3e3;
+                    width: 25%;
+                    padding: 1em 0.8em;
+                    display: flex;
+                    justify-content: space-between;
+                    a {
+                        text-decoration: none;
+                        color: #727272;
+                    }
+                }
+
+                .subscription {
+                    border-right: 1px solid #e3e3e3;
+                }
+            }
+
+            .digital-center {
+                position: relative;
+            }
+
+            .digital-center .digital-comics {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                position: absolute;
+                top: 0;
+            }
+
+            .digital-center .digital-comics,
+            .digital-center a {
+                height: 44px;
+                display: block;
+            }
+
+            #img-digital-comics {
+                width: 37px;
+                height: 37px;
+                background: url("../../img/cta-icons.png") 0 0;
+            }
+
+            #img-shop-dc {
+                width: 37px;
+                height: 37px;
+                background: url("../../img/cta-icons.png") -112px 0;
+            }
+
+            #img-comics-shop-locator {
+                width: 37px;
+                height: 37px;
+                background: url("../../img/cta-icons.png") -75px 0;
+            }
+
+            #img-subscription {
+                width: 37px;
+                height: 37px;
+                background: url("../../img/cta-icons.png") -38px 0;
             }
         }
     }

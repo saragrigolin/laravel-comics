@@ -20,6 +20,15 @@ html {
 
 .w-55 {
   width: 55%;
+  margin: 0 auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.p-0 {
+  padding: 0;
 }
 
 header {
@@ -58,7 +67,7 @@ header .container ul li a {
   line-height: 100px;
   color: black;
 }
-header .container ul li a.blue, header .container ul li a:hover {
+header .container ul li a.active, header .container ul li a:hover {
   color: #0282f9;
   border-bottom: 0.2em solid #0282f9;
 }

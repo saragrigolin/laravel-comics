@@ -32,7 +32,7 @@ header {
                     height: 100%;
                     line-height: 100px;
                     color: black;
-                    &.blue,
+                    &.active,
                     &:hover {
                         color: $lightblue;
                         border-bottom: 0.2em solid $lightblue;

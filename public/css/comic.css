@@ -20,6 +20,15 @@ html {
 
 .w-55 {
   width: 55%;
+  margin: 0 auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.p-0 {
+  padding: 0;
 }
 
 main.comic {
@@ -124,49 +133,116 @@ main.comic .comic-info-container {
   width: 100%;
   background-color: #f6f6f6;
 }
-main.comic .comic-info-container .info {
+main.comic .comic-info-container .container-info {
   display: flex;
+  padding-top: 3em;
+  padding-bottom: 5em;
 }
-main.comic .comic-info-container .info .left-info {
+main.comic .comic-info-container .container-info .left-info {
   margin-right: 2em;
 }
-main.comic .comic-info-container .info .right-info {
+main.comic .comic-info-container .container-info .right-info {
   margin-left: 2em;
 }
-main.comic .comic-info-container .info .left-info,
-main.comic .comic-info-container .info .right-info {
+main.comic .comic-info-container .container-info .left-info,
+main.comic .comic-info-container .container-info .right-info {
   width: 50%;
 }
-main.comic .comic-info-container .info .left-info .info-title,
-main.comic .comic-info-container .info .right-info .info-title {
+main.comic .comic-info-container .container-info .left-info .info-title,
+main.comic .comic-info-container .container-info .right-info .info-title {
   padding-bottom: 1em;
   font-size: 1.2em;
   color: #1c405d;
   border-bottom: 1px solid #e3e3e3;
 }
-main.comic .comic-info-container .info .left-info .subinfo,
-main.comic .comic-info-container .info .right-info .subinfo {
+main.comic .comic-info-container .container-info .left-info .subinfo,
+main.comic .comic-info-container .container-info .right-info .subinfo {
   display: flex;
   width: 100%;
   font-size: 0.8em;
   padding: 0.7em 0;
   border-bottom: 1px solid #e3e3e3;
 }
-main.comic .comic-info-container .info .left-info .subinfo .info-subtitle,
-main.comic .comic-info-container .info .right-info .subinfo .info-subtitle {
+main.comic .comic-info-container .container-info .left-info .subinfo .info-subtitle,
+main.comic .comic-info-container .container-info .right-info .subinfo .info-subtitle {
   width: 30%;
   color: #1c405d;
 }
-main.comic .comic-info-container .info .left-info .subinfo .info-desc,
-main.comic .comic-info-container .info .right-info .subinfo .info-desc {
+main.comic .comic-info-container .container-info .left-info .subinfo .info-desc,
+main.comic .comic-info-container .container-info .right-info .subinfo .info-desc {
   width: 70%;
 }
-main.comic .comic-info-container .info .left-info .subinfo .info-desc a,
-main.comic .comic-info-container .info .right-info .subinfo .info-desc a {
+main.comic .comic-info-container .container-info .left-info .subinfo .info-desc a,
+main.comic .comic-info-container .container-info .right-info .subinfo .info-desc a {
   text-decoration: none;
   color: #00a9d9;
 }
-main.comic .comic-info-container .info .left-info .subinfo .info-desc .upper,
-main.comic .comic-info-container .info .right-info .subinfo .info-desc .upper {
+main.comic .comic-info-container .container-info .left-info .subinfo .info-desc .upper,
+main.comic .comic-info-container .container-info .right-info .subinfo .info-desc .upper {
   text-transform: uppercase;
+}
+main.comic .comic-info-container .digitals {
+  text-transform: uppercase;
+  width: 100%;
+  border-top: 1px solid #e3e3e3;
+}
+main.comic .comic-info-container .digitals .digitals-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+main.comic .comic-info-container .digitals .digitals-container .digital-comics,
+main.comic .comic-info-container .digitals .digitals-container .shop-dc,
+main.comic .comic-info-container .digitals .digitals-container .coics-shop-locator,
+main.comic .comic-info-container .digitals .digitals-container .subscription {
+  border-left: 1px solid #e3e3e3;
+  width: 25%;
+  padding: 1em 0.8em;
+  display: flex;
+  justify-content: space-between;
+}
+main.comic .comic-info-container .digitals .digitals-container .digital-comics a,
+main.comic .comic-info-container .digitals .digitals-container .shop-dc a,
+main.comic .comic-info-container .digitals .digitals-container .coics-shop-locator a,
+main.comic .comic-info-container .digitals .digitals-container .subscription a {
+  text-decoration: none;
+  color: #727272;
+}
+main.comic .comic-info-container .digitals .digitals-container .subscription {
+  border-right: 1px solid #e3e3e3;
+}
+main.comic .comic-info-container .digitals .digital-center {
+  position: relative;
+}
+main.comic .comic-info-container .digitals .digital-center .digital-comics {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+main.comic .comic-info-container .digitals .digital-center .digital-comics,
+main.comic .comic-info-container .digitals .digital-center a {
+  height: 44px;
+  display: block;
+}
+main.comic .comic-info-container .digitals #img-digital-comics {
+  width: 37px;
+  height: 37px;
+  background: url("../../img/cta-icons.png") 0 0;
+}
+main.comic .comic-info-container .digitals #img-shop-dc {
+  width: 37px;
+  height: 37px;
+  background: url("../../img/cta-icons.png") -112px 0;
+}
+main.comic .comic-info-container .digitals #img-comics-shop-locator {
+  width: 37px;
+  height: 37px;
+  background: url("../../img/cta-icons.png") -75px 0;
+}
+main.comic .comic-info-container .digitals #img-subscription {
+  width: 37px;
+  height: 37px;
+  background: url("../../img/cta-icons.png") -38px 0;
 }
