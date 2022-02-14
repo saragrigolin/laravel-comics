@@ -1,0 +1,17 @@
+main {
+    background-color: white;
+    .container {
+        padding: 3em 0;
+        position: relative;
+        .comic-title {
+            position: absolute;
+            top: -65%;
+            border: 1px solid white;
+            height: 60%;
+            overflow: hidden;
+            img {
+                height: 100%;
+            }
+        }
+    }
+}

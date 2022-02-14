@@ -14,4 +14,6 @@
             <li><a href="{{route('characters')}}">shop<i class="fa-solid fa-sort-down"></i></a></li>
         </ul>
     </div>
+    <div class="jumbotron background">
+    </div>
 </header>

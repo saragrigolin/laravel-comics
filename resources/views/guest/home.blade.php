@@ -6,8 +6,6 @@
 
 @section('content')
     <main>
-        <div class="jumbotron background">
-        </div>
         <div class="container">
             <div class="title">
                 <span>current series</span>
@@ -16,7 +14,7 @@
                 @foreach($comics as $comic)
                 <div class="thumb">
                     <div class="img-container">
-                        <img src="{{ $comic['thumb']}}" alt="">
+                        <a href="{{ route('comic', $comic['id'])}}"><img src="{{ $comic['thumb']}}" alt=""></a>
                     </div>
                     <span class="subtitle">{{ $comic['title'] }}</span>
                 </div>
