@@ -120,3 +120,53 @@ main.comic .container .comic-book-container .adv-container span {
 main.comic .container .comic-book-container .adv-container img {
   width: 100%;
 }
+main.comic .comic-info-container {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+main.comic .comic-info-container .info {
+  display: flex;
+}
+main.comic .comic-info-container .info .left-info {
+  margin-right: 2em;
+}
+main.comic .comic-info-container .info .right-info {
+  margin-left: 2em;
+}
+main.comic .comic-info-container .info .left-info,
+main.comic .comic-info-container .info .right-info {
+  width: 50%;
+}
+main.comic .comic-info-container .info .left-info .info-title,
+main.comic .comic-info-container .info .right-info .info-title {
+  padding-bottom: 1em;
+  font-size: 1.2em;
+  color: #1c405d;
+  border-bottom: 1px solid #e3e3e3;
+}
+main.comic .comic-info-container .info .left-info .subinfo,
+main.comic .comic-info-container .info .right-info .subinfo {
+  display: flex;
+  width: 100%;
+  font-size: 0.8em;
+  padding: 0.7em 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+main.comic .comic-info-container .info .left-info .subinfo .info-subtitle,
+main.comic .comic-info-container .info .right-info .subinfo .info-subtitle {
+  width: 30%;
+  color: #1c405d;
+}
+main.comic .comic-info-container .info .left-info .subinfo .info-desc,
+main.comic .comic-info-container .info .right-info .subinfo .info-desc {
+  width: 70%;
+}
+main.comic .comic-info-container .info .left-info .subinfo .info-desc a,
+main.comic .comic-info-container .info .right-info .subinfo .info-desc a {
+  text-decoration: none;
+  color: #00a9d9;
+}
+main.comic .comic-info-container .info .left-info .subinfo .info-desc .upper,
+main.comic .comic-info-container .info .right-info .subinfo .info-desc .upper {
+  text-transform: uppercase;
+}

@@ -113,4 +113,59 @@ main.comic {
             }
         }
     }
+
+    .comic-info-container {
+        width: 100%;
+        background-color: #f6f6f6;
+
+        .info {
+            display: flex;
+
+            .left-info {
+                margin-right: 2em;
+            }
+
+            .right-info {
+                margin-left: 2em;
+            }
+
+            .left-info,
+            .right-info {
+                width: 50%;
+
+                .info-title {
+                    padding-bottom: 1em;
+                    font-size: 1.2em;
+                    color: #1c405d;
+                    border-bottom: 1px solid #e3e3e3;
+                }
+
+                .subinfo {
+                    display: flex;
+                    width: 100%;
+                    font-size: 0.8em;
+                    padding: 0.7em 0;
+                    border-bottom: 1px solid #e3e3e3;
+
+                    .info-subtitle {
+                        width: 30%;
+                        color: #1c405d;
+                    }
+
+                    .info-desc {
+                        width: 70%;
+
+                        a {
+                            text-decoration: none;
+                            color: #00a9d9;
+                        }
+
+                        .upper {
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
