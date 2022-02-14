@@ -1,0 +1,116 @@
+@import "partials/variables";
+@import "partials/common";
+
+main.comic {
+    background-color: white;
+    .container {
+        padding: 3em 0;
+        position: relative;
+        .comic-title {
+            position: absolute;
+            top: -330px;
+            border: 1px solid white;
+            width: 200px;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+            .blue-title {
+                background-color: #00a8d9;
+                text-transform: uppercase;
+                position: absolute;
+                color: white;
+
+                &.book {
+                    top: 0;
+                    padding: 0.3em 0.5em;
+                }
+
+                &.gallery {
+                    bottom: 0;
+                    width: 100%;
+                    padding: 0.3em 0;
+                    text-align: center;
+                }
+            }
+        }
+        .comic-book-container {
+            display: flex;
+            width: 100%;
+
+            .desc-container {
+                width: 80%;
+                // padding-top: 2em;
+                margin-right: 2em;
+
+                .book-title {
+                    text-transform: uppercase;
+                    color: #1c405d;
+                    font-size: 1.4em;
+                    padding: 1em 0;
+                }
+
+                .available-container {
+                    width: 100%;
+                    display: flex;
+                    color: white;
+                    font-size: 0.8em;
+
+                    .left {
+                        width: 70%;
+                        display: flex;
+                        justify-content: space-between;
+                        background-color: #55ba58;
+                        border-bottom: 1px solid #357739;
+                        border-right: 1px solid #357739;
+                        padding: 0.9em;
+
+                        .span-price {
+                            color: #aff892;
+                        }
+
+                        .span-available {
+                            text-transform: uppercase;
+                            color: #aff892;
+                        }
+                    }
+                    .right {
+                        width: 30%;
+                        background-color: #55ba58;
+                        border-bottom: 1px solid #357739;
+                        padding: 0.9em;
+                        display: flex;
+                        justify-content: center;
+
+                        .available-text {
+                            display: flex;
+                            align-items: center;
+
+                            i {
+                                padding-left: 0.5em;
+                            }
+                        }
+                    }
+                }
+
+                .text-desc {
+                    padding-top: 0.7em;
+                    color: #555555;
+                    line-height: 1.5em;
+                }
+            }
+            .adv-container {
+                span {
+                    display: inline-block;
+                    width: 100%;
+                    text-transform: uppercase;
+                    text-align: right;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

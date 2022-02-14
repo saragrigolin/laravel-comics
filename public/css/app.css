@@ -18,8 +18,8 @@ html {
   text-align: center;
 }
 
-.w-60 {
-  width: 60%;
+.w-55 {
+  width: 55%;
 }
 
 header {
@@ -130,24 +130,6 @@ main .container .bottom-container .load-more {
   padding: 1em 3em;
   background-color: #0282f9;
   display: inline-block;
-}
-
-main {
-  background-color: white;
-}
-main .container {
-  padding: 3em 0;
-  position: relative;
-}
-main .container .comic-title {
-  position: absolute;
-  top: -65%;
-  border: 1px solid white;
-  height: 60%;
-  overflow: hidden;
-}
-main .container .comic-title img {
-  height: 100%;
 }
 
 .footer-top {
