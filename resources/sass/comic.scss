@@ -200,22 +200,10 @@ main.comic {
                 }
             }
 
-            .digital-center {
-                position: relative;
-            }
-
-            .digital-center .digital-comics {
+            .digital-comics {
                 margin: 0;
                 padding: 0;
                 list-style: none;
-                position: absolute;
-                top: 0;
-            }
-
-            .digital-center .digital-comics,
-            .digital-center a {
-                height: 44px;
-                display: block;
             }
 
             #img-digital-comics {

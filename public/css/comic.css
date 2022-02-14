@@ -211,20 +211,10 @@ main.comic .comic-info-container .digitals .digitals-container .subscription a {
 main.comic .comic-info-container .digitals .digitals-container .subscription {
   border-right: 1px solid #e3e3e3;
 }
-main.comic .comic-info-container .digitals .digital-center {
-  position: relative;
-}
-main.comic .comic-info-container .digitals .digital-center .digital-comics {
+main.comic .comic-info-container .digitals .digital-comics {
   margin: 0;
   padding: 0;
   list-style: none;
-  position: absolute;
-  top: 0;
-}
-main.comic .comic-info-container .digitals .digital-center .digital-comics,
-main.comic .comic-info-container .digitals .digital-center a {
-  height: 44px;
-  display: block;
 }
 main.comic .comic-info-container .digitals #img-digital-comics {
   width: 37px;
