@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="comic-info-container">
-            <div class="container info w-55">
+            <div class="container-info w-55">
                 <div class="left-info">
                     <div class="info-title">
                         <span>Talent</span>
@@ -104,6 +104,28 @@
                         </div>
                         <div class="info-desc">
                             <span>{{ date_format(date_create($comic['sale_date']),'M d Y') }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-footer-container p-0 w-100">
+                <div class="digitals">
+                    <div class="digitals-container w-55">
+                        <div class="digital-comics">
+                            <span><a href="">digital comics</a href=""></span>
+                            <div id="img-digital-comics"></div>    
+                        </div>
+                        <div class="shop-dc">
+                            <span><a href="">shop dc</a href=""></span>
+                            <div id="img-shop-dc"></div> 
+                        </div>
+                        <div class="coics-shop-locator">
+                            <span><a href="">comics shop locator</a href=""></span>
+                            <div id="img-comics-shop-locator"></div>    
+                        </div>
+                        <div class="subscription">
+                            <span><a href="">subscriptions</a href=""></span>
+                            <div id="img-subscription"></div>    
                         </div>
                     </div>
                 </div>
